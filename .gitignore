@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Vector DB (large binaries)
+notebook/vector_db/
+*.sqlite3
+*.bin
+*.pickle
+
+# Data (optional, keep if you want to version raw data)
+# notebook/data/
