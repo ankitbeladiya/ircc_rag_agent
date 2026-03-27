@@ -17,4 +17,11 @@ notebook/vector_db/
 *.pickle
 
 # Data (optional, keep if you want to version raw data)
-# notebook/data/
+notebook/data/
+*.log
+data/
+documents/
+test_set/
+vector_db/
+*.DS_Store
+.DS_Store
